@@ -1,0 +1,23 @@
+{
+    "name": "koderhut/twig-examples",
+    "description": "Variable accessing in Twig template examples",
+    "require": {
+        "twig/twig": "^2.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Rendler",
+            "email": "connect@rendler.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "KoderHut\\": "src/KoderHut"
+        }
+    }
+}
